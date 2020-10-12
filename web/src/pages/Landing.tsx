@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
 
 import logoImg from '../assets/icons/complete-logo.svg';
@@ -21,9 +22,9 @@ const Landing: React.FC = () => (
         <span>Paraná</span>
       </div>
 
-      <a href="" className="enter-app">
-        <FiArrowRight size={26} color="rgba(0,0,0, 0.6)" />
-      </a>
+      <Link to="/app" className="enter-app">
+        <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
+      </Link>
     </div>
   </div>
 );
