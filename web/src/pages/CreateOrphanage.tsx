@@ -85,7 +85,7 @@ const CreateOrphanage: React.FC = () => {
             <legend>Dados</legend>
 
             <Map
-              center={[-27.2092052, -49.6401092]}
+              center={[-25.379595, -51.4894753]}
               style={{ width: '100%', height: 280 }}
               zoom={15}
               onclick={handleMapClick}
